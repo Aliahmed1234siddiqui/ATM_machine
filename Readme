@@ -1,1 +1,37 @@
+ATM System Use Case Diagram:
 
+Overview:
+This project represents the use case diagram for a modern ATM system, detailing the interactions between different actors and the system functionalities. It illustrates how customers, bank administrators, technicians, security systems, and mobile app users interact with the ATM system to perform various banking operations.
+
+
+Actors:
+Customer: The primary user who interacts with the ATM for banking transactions.
+Bank Administrator: Oversees transaction monitoring, report generation, and cash reconciliation.
+Technician: Responsible for refilling cash and maintaining the ATM machine.
+Bank System: Handles transaction authorization, balance updates, and fraud detection.
+Security System: Monitors transactions for fraudulent activities.
+Mobile App User: Accesses ATM functions through a mobile application.
+
+Key Use Cases:
+Card and PIN entry for authentication.
+Various transaction types including cash withdrawal, deposit, transfer funds, check balance, and mobile cash withdrawal.
+Customer services such as updating PIN, reporting lost/stolen cards, viewing mini statements, and multi-language support.
+Backend operations like monitoring transactions, generating reports, cash reconciliation, and fraud detection.
+ATM maintenance tasks including cash refilling and system diagnostics.
+
+Use Case Relationships:
+Include: Mandatory sub-processes like PIN authorization during authentication.
+Extend: Optional features such as printing receipts and multi-language selection.
+
+How to Use:
+Refer to the diagram to understand system interactions.
+Actors on the sides indicate who initiates or is responsible for the use case.
+Use cases inside the system boundary show the system’s capabilities.
+
+Improvements in New Version:
+Added mobile app user and security system actors.
+Enhanced functionalities like fraud detection and multi-language support.
+Simplified and clarified relationships for better understanding.
+
+Diagram Tool:
+The diagram was created using [insert tool name, e.g., draw.io, Lucidchart].
